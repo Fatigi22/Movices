@@ -13,7 +13,7 @@ const Navbar = () => {
     {
       icon: "fas fa-tv",
       name: "constact",
-      link: "/tv",
+      link: "/Contact",
       id: 2,
     },
     {
