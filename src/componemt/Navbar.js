@@ -1,31 +1,26 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Footer = () => {
+const Navbar = () => {
   const data = [
     {
       icon: "fas fa-fire-alt",
-      name: "Trending",
+      name: "Homme",
       link: "/",
       id: 1,
     },
-    {
-      icon: "fas fa-film",
-      name: "Movies",
-      link: "/movies",
-      id: 2,
-    },
+
     {
       icon: "fas fa-tv",
-      name: "TV Series",
+      name: "constact",
       link: "/tv",
-      id: 3,
+      id: 2,
     },
     {
       icon: "fas fa-search",
       name: "Search",
       link: "/search",
-      id: 4,
+      id: 3,
     },
   ];
 
@@ -49,4 +44,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Navbar;
